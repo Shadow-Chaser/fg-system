@@ -88,6 +88,14 @@ const FeedbackForm = () => {
                 isClosable: true,
             })
         }
+        else {
+            toast({
+                title: `Please fill out all the required fields! `,
+                status: "error",
+                position: "top",
+                isClosable: true,
+            })
+        }
     }
 
     return (
@@ -180,7 +188,7 @@ const FeedbackForm = () => {
                         </RadioGroup>
                     </FormControl>
 
-                    <Button id='submitBtn' type='submit' onClick={handleSubmit} colorScheme="teal">Button</Button>
+                    <Button type='submit' id='submitBtn' onClick={handleSubmit} colorScheme="teal">Button</Button>
                 </div>
             </form>
         </div>
