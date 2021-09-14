@@ -1,7 +1,6 @@
 # F&G
 
-It is a e feedback and the
-grievance system.
+It is a feedback and grievance system.
 
 ## Features
 
