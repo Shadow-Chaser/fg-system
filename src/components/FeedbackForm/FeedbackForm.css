@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+.form_title{
+    font-size:18px;
+    font-weight:700;
+    color:#2A62B7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form_description{
+    font-size:14px;
+    /* font-weight:500; */
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    margin-bottom: 20px;
+}
+
+#phoneField{
+margin-bottom:70px;
+}
+
+#email{
+    margin-bottom:30px;
+}
+
+.radio{
+    margin-bottom: 30px;
+}
+
+#submitBtn{
+    background:green;
+}
+
